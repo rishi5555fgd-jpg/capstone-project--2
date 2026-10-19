@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .container {
@@ -101,6 +102,163 @@ body {
 hr {
   margin-top: 0;
 }
+
+.skills{
+  background-image: url("9779f926fc3ec0070bfcf049018f9eb1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+}
+
+.skills > div > h2{
+  font-size: 45px;
+  color: #BD5579;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  
+}
+
+
+.list-1 {
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.list-1 > img {
+  width: 200px;
+  float: left;
+  margin-left: 15%;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+
+.list-1 > h3 , .video-text > h3 {
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  color: #0F42C0;
+}
+
+.list-1 > p , .video-text > p {
+  margin-left: 35%;
+  margin-right: 5%;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+.list-2 {
+  display: flow-root;
+  width: 100%;
+}
+
+.list-2 > video{
+  width: 200px;
+  float: left;
+  margin-left: 15%;
+  border-radius: 20px;
+}
+
+.above-foot{
+  background-image: url("download.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.above-foot > div > h2{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  font-size: 55px;
+}
+
+.above-foot > div > h3{
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+  text-align: center;
+  font-size: 40px;
+}
+
+.above-foot > div > p{
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 20%;
+  margin-right: 15%;
+}
+
+@media (max-width: 800px) {
+  .list-2 > video{
+    width: 200px;
+  }
+  .list-1 > p , .video-text > p{
+    font-size: 15px;
+  }
+
+}
+
+.contact-button{
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 45%;
+    margin-top: 3%;
+    border-radius: 15px;
+}
+
+.footer{
+  background-color: #0d6efd;
+  height: 200px;
+}
+
+.footer > .container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+}
+
+.box:nth-child(4) {
+    grid-column: 2;
+    margin-top: 30%;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    right: 30%;
+}
+
+.box{
+  margin-top: 10%;
+  font-size: 20px;
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
